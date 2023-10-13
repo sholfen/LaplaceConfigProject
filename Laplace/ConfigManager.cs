@@ -1,4 +1,6 @@
-﻿namespace Laplace
+﻿using Microsoft.Extensions.Configuration;
+
+namespace Laplace
 {
     public class ConfigManager
     {
@@ -13,6 +15,11 @@
                 default:
                     break;
             }
+        }
+
+        public IConfiguration GetConfiguration() 
+        {
+            throw new NotImplementedException();
         }
     }
 }
