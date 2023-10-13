@@ -1,6 +1,6 @@
 namespace LaplaceTestProject
 {
-    public class Tests
+    public class MemorySourceTests
     {
         [SetUp]
         public void Setup()
@@ -8,7 +8,7 @@ namespace LaplaceTestProject
         }
 
         [Test]
-        public void Test1()
+        public void AddTest()
         {
             Assert.Pass();
         }
