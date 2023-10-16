@@ -13,5 +13,7 @@ namespace Laplace.Sources
         void Delete(string key);
         void Update(string key, object item);
         T Get<T>(string key);
+        void AddConnectionString(string key, string connectionString);
+        string GetConnectionString(string key);
     }
 }
